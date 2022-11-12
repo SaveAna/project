@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1, h2, h3, h4 ,h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
