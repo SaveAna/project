@@ -1,0 +1,18 @@
+.section-team {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: deepskyblue;
+}
+
+.team__text {
+  font-size: 48px;
+  line-height: calc(72 / 48);
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
