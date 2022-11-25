@@ -1,4 +1,72 @@
 .footer {
-    background-color: black;
+    background-color: brown;
+    margin: 15px;
+    text-align: center;
+    border-radius: 4px;
     color: aqua;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+&__section {
+padding: 15px;
+}
+
+    &__title {
+        font-weight: 700;
+            font-size: 36px;
+            line-height: calc(42 / 36);
+            letter-spacing: 0.03em;
+            color: #fff;
+    }
+
+    &__link {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 15px;
+    }
+
+    
+}
+
+.contacts_text {
+    font-weight: 700;
+        font-size: 12px;
+        line-height: calc(19 / 16);
+        letter-spacing: .06em;
+        color: #fff;
+        gap: 10px;
+
+        &:hover,
+        &:focus {
+            color: teal;
+        }
+}
+
+.footer__button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    padding: 10px 32px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    color: #ffff;
+    background-color: rgb(76, 32, 114);
+margin-bottom: 20px;
+    border-color: transparent;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    background-color: rgb(69, 32, 181);
+}
+
 }
