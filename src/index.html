@@ -20,6 +20,7 @@
       <include src="./partials/team.html"></include>
       <include src="./partials/sviper.html"></include>
       <include src="./partials/coverflov.html"></include>
+      <include src="./partials/effect-cards.html"></include>
       <include src="./partials/cube.html"></include>
     </main>
     <!-- footer -->
@@ -67,10 +68,10 @@
         },
       });
     </script> -->
-      <!-- Initialize Swiper -->
+    <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "cube",
+      var swiper = new Swiper('.mySwiper', {
+        effect: 'cube',
         loop: true,
         grabCursor: true,
         cubeEffect: {
@@ -80,8 +81,15 @@
           shadowScale: 0.94,
         },
         pagination: {
-          el: ".swiper-pagination",
+          el: '.swiper-pagination',
         },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper('.my', {
+        effect: 'cards',
+        grabCursor: true,
       });
     </script>
   </body>
