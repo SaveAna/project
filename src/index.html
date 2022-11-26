@@ -20,6 +20,7 @@
       <include src="./partials/team.html"></include>
       <include src="./partials/sviper.html"></include>
       <include src="./partials/coverflov.html"></include>
+      <include src="./partials/effect-cards.html"></include>
     </main>
     <!-- footer -->
     <include src="./partials/footer.html"></include>
@@ -64,6 +65,13 @@
         pagination: {
           el: '.swiper-pagination',
         },
+      });
+    </script>
+
+    <script>
+      var swiper = new Swiper('.my', {
+        effect: 'cards',
+        grabCursor: true,
       });
     </script>
   </body>
