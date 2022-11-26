@@ -21,6 +21,7 @@
       <include src="./partials/sviper.html"></include>
       <include src="./partials/coverflov.html"></include>
       <include src="./partials/effect-cards.html"></include>
+      <include src="./partials/cube.html"></include>
     </main>
     <!-- footer -->
     <include src="./partials/footer.html"></include>
@@ -49,7 +50,7 @@
         },
       });
     </script> -->
-    <script>
+    <!-- <script>
       var swiper = new Swiper('.mySwiper', {
         effect: 'coverflow',
         grabCursor: true,
@@ -61,6 +62,23 @@
           depth: 100,
           modifier: 1,
           slideShadows: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script> -->
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        effect: 'cube',
+        loop: true,
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
         },
         pagination: {
           el: '.swiper-pagination',
